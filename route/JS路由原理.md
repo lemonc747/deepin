@@ -26,7 +26,7 @@
 
 原理：通过监听全局的`hashChange`事件，当url的hash改变时进行判断和匹配
 
-![](./assets//hash%E8%B7%AF%E7%94%B1%E6%B5%81%E7%A8%8B.jpeg)
+![](./assets/hash_route.jpeg)
 
 ```ts
 // 监听hash的改变
@@ -52,3 +52,11 @@ location.hash = "#hash1";
 
 # 三 history路由
 在保持url同源的情况下，改变url。
+
+![](./assets//history_route.jpeg)
+
+
+# 四 浏览器URL跳转原理
+
+点击URL或前进后退，具体发生了什么
+![](./assets/after_url_transition.png)
